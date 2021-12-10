@@ -1,0 +1,16 @@
+1) lynx --dump fb.com > fb.txt
+2) ls -l --sort=size  | awk '{print $5,$9}' > sorted_feles.txt
+3) xdg-open http://google.com 
+4) rg -c -H 'Dwin'
+5) ps -o pid,uname,comm
+6) sudo shutdown -P +1
+	shutdown
+	reboot	
+	halt
+	poweroff
+7) hostname -I
+8) ps aux --sort -rss
+10) dig google.com
+    nslookup google.com
+    host google.com
+11) nautilus . (pathname is .)
