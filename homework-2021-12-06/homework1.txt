@@ -1,0 +1,3 @@
+wget --no-check-certificate https://drive.google.com/uc?id=1WsagOqZaGm7gWDt1Q54ol7ucLphy8XPA&export
+tar -xvf 'uc?id=1WsagOqZaGm7gWDt1Q54ol7ucLphy8XPA'
+sudo dpkg -i opera-stable_82.0.4227.23_amd64.deb
