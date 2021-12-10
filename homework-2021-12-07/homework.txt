@@ -1,0 +1,14 @@
+Task 1
+Specify a command to remove every file in a directory with .txt extension.
+rm *.txt
+
+Task 2
+Install the package from the following url (https://drive.google.com/uc?id=1WsagOqZaGm7gWDt1Q54ol7ucLphy8XPA&export=download) (use commands: wget, tar,  dpkg)
+
+wget --no-check-certificate https://drive.google.com/uc?id=1WsagOqZaGm7gWDt1Q54ol7ucLphy8XPA&export
+tar -xvf 'uc?id=1WsagOqZaGm7gWDt1Q54ol7ucLphy8XPA'
+sudo dpkg -i opera-stable_82.0.4227.23_amd64.deb
+
+Task 3
+Find a way to open google.com web site in terminal(via headless browser).
+xdg-open http://google.com
